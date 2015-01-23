@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="template-warapp-depson-ejb-inline:war">
+    <output-path>$PROJECT_DIR$/template-warapp-depson-ejb-inline/target</output-path>
+    <root id="archive" name="template-warapp-depson-ejb-inline.war">
+      <element id="artifact" artifact-name="template-warapp-depson-ejb-inline:war exploded" />
+    </root>
+  </artifact>
+</component>

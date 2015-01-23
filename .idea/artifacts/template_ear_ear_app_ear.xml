@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="template-ear-ear-app:ear">
+    <output-path>$PROJECT_DIR$/my-mdb-jms-show-ear/template-ear-ear-app/target</output-path>
+    <root id="archive" name="template-ear-ear-app.ear">
+      <element id="artifact" artifact-name="template-ear-ear-app:ear exploded" />
+    </root>
+  </artifact>
+</component>

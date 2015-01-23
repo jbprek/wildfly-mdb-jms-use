@@ -12,18 +12,12 @@
     <name>wildfly-mdb-jms-use</name>
 
     <modules>
-        <!-- Template for a simple war-->
-        <module>template-warapp</module>
-        <!-- Classes and interfaces for template-ejb-module- -->
-        <module>template-ejb-module-interfaces</module>
-        <!-- Template for a standalone ejb module -->
-        <module>template-ejb-module</module>
-        <!-- war app depending on a non deployed ejb module -->
-        <module>template-warapp-depson-ejb-inline</module>
-        <!-- ear demonstrating ejb local client with jboss extensions -->
-        <module>template-ejb-remote-client</module>
-        <!--  EAR template -->
-        <module>template-ear-project</module>
+        <!-- JBOSS Quick start -->
+        <module>qs-helloworld-jms</module>
+        <!-- JBOSS Quick start -->
+        <module>qs-helloworld-mdb</module>
+        <!--  Shows use of JMS 1.1 and JMS.2.0 in Wildfly -->
+        <module>my-mdb-jms-show-ear</module>
 
     </modules>
 

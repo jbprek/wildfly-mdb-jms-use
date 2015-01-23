@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="template-warapp-depson-ejb-inline:war exploded">
+    <output-path>$PROJECT_DIR$/template-warapp-depson-ejb-inline/target/template-warapp-depson-ejb-inline</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="template-warapp-depson-ejb-inline" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="template-ejb-module-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="template-ejb-module" />
+          </element>
+          <element id="archive" name="template-ejb-module-interfaces-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="template-ejb-module-interfaces" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="C:\Working\github\wildfly-mdb-jms-use\template-warapp-depson-ejb-inline\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="template-warapp-depson-ejb-inline/web/Web" />
+    </root>
+  </artifact>
+</component>

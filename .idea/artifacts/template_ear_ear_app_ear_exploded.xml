@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="template-ear-ear-app:ear exploded">
+    <output-path>$PROJECT_DIR$/my-mdb-jms-show-ear/template-ear-ear-app/target/template-ear-ear-app</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="template-ear-ear-app/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="C:\Working\github\wildfly-mdb-jms-use\my-mdb-jms-show-ear\template-ear-ear-app\target/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="template-ear-web-module.war">
+        <element id="artifact" artifact-name="template-ear-web-module:war exploded" />
+      </element>
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/bagab/wildfly/jms/jms11-mdb-module/1.0-SNAPSHOT/jms11-mdb-module-1.0-SNAPSHOT.jar" output-file-name="jms11-mdb-module.jar" />
+    </root>
+  </artifact>
+</component>
