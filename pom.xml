@@ -17,7 +17,7 @@
         <!-- JBOSS Quick start -->
         <module>qs-helloworld-mdb</module>
         <!--  Shows use of JMS 1.1 and JMS.2.0 in Wildfly -->
-        <module>my-mdb-jms-show-ear</module>
+        <module>jms11-mdb-module</module>
 
     </modules>
 

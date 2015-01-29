@@ -9,7 +9,9 @@
       <element id="archive" name="template-ear-web-module.war">
         <element id="artifact" artifact-name="template-ear-web-module:war exploded" />
       </element>
-      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/bagab/wildfly/jms/jms11-mdb-module/1.0-SNAPSHOT/jms11-mdb-module-1.0-SNAPSHOT.jar" output-file-name="jms11-mdb-module.jar" />
+      <element id="archive" name="jms11-mdb-module.jar">
+        <element id="module-output" name="jms11-mdb-module" />
+      </element>
     </root>
   </artifact>
 </component>
